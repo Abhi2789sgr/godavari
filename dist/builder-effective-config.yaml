@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: gas-smoke-meter
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - ia32
+electronVersion: 4.1.1
